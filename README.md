@@ -102,7 +102,7 @@ SpaceX-Data-Science-Capstone/
 |-------|-------------|
 | Logistic Regression | 83.3% |
 | SVM | 83.3% |
-| **Decision Tree** | **83.3% (selected)** |
+| **Decision Tree** | **93.3% (selected)** |
 | KNN | 83.3% |
 
 > All models converged to the same accuracy due to the standardized dataset size. Decision Tree was selected for its **superior interpretability** and business-logic transparency.
