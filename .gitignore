@@ -20,7 +20,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data files (add exceptions if you want to include CSVs)
+# Data files
 *.csv
 *.db
 *.sqlite
