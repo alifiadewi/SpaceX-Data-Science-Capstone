@@ -29,19 +29,19 @@ This project applies the full data science lifecycle — from data collection to
 SpaceX-Data-Science-Capstone/
 │
 ├── notebooks/
-│   ├── 01_data-collection-api.ipynb              # SpaceX REST API data collection
-│   ├── 02_data-collection-with-webscraping.ipynb # Wikipedia HTML scraping
-│   ├── 03_data-wrangling.ipynb                   # Cleaning & feature engineering
-│   ├── 04_eda-with-sql.ipynb                     # SQL-based exploration
-│   ├── 05_eda-with-visualization.ipynb           # Seaborn/Matplotlib visualizations
-│   ├── 06_interactive-visual-analytics-with-folium.ipynb  # Geospatial map analysis
-│   └── 07_machine-learning-prediction.ipynb      # Classification model training
+│   ├── 01_data-collection-api.ipynb
+│   ├── 02_data-collection-with-webscraping.ipynb
+│   ├── 03_data-wrangling.ipynb
+│   ├── 04_eda-with-sql.ipynb
+│   ├── 05_eda-with-visualization.ipynb
+│   ├── 06_interactive-visual-analytics-with-folium.ipynb
+│   └── 07_machine-learning-prediction.ipynb
 │
 ├── dashboard/
-│   └── interactive-dashboard-with-plotly.py      # Plotly Dash web dashboard
+│   └── interactive-dashboard-with-plotly.py
 │
 ├── presentation/
-│   └── Data_Science_Capstone_Project_Report.pdf  # Full project presentation
+│   └── Data_Science_Capstone_Project_Report.pdf
 │
 ├── .gitignore
 ├── requirements.txt
@@ -107,59 +107,6 @@ SpaceX-Data-Science-Capstone/
 > All models converged to the same accuracy due to the standardized dataset size. Decision Tree was selected for its **superior interpretability** and business-logic transparency.
 
 ---
-
-## Technologies Used
-
-| Category | Tools |
-|----------|-------|
-| **Data Collection** | `requests`, `BeautifulSoup4`, SpaceX REST API |
-| **Data Processing** | `pandas`, `numpy` |
-| **Visualization** | `matplotlib`, `seaborn`, `folium`, `plotly` |
-| **Dashboard** | `Dash` (Plotly) |
-| **Machine Learning** | `scikit-learn` (LogReg, SVM, KNN, Decision Tree, GridSearchCV) |
-| **Database** | SQL via `ibm_db` / `sqlite3` |
-| **Environment** | Python 3, Jupyter Notebook |
-
----
-
-## How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/SpaceX-Data-Science-Capstone.git
-cd SpaceX-Data-Science-Capstone
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebooks (in order)
-```bash
-jupyter notebook
-```
-Open and run notebooks `01` through `07` sequentially inside the `notebooks/` folder.
-
-### 4. Run the interactive dashboard
-```bash
-cd dashboard
-python interactive-dashboard-with-plotly.py
-```
-Then open `http://127.0.0.1:8050/` in your browser.
-
-> **Note:** The dashboard requires `spacex_launch_dash.csv` in the same directory. This file is generated during the data wrangling step (notebook `03`).
-
----
-
-## Presentation
-
-The full project presentation (slides) is available here:  
-📎 [`presentation/Data_Science_Capstone_Project_Report.pdf`](./presentation/Data_Science_Capstone_Project_Report.pdf)
-
----
-
-## Certificate
 
 This project was completed as the capstone for the **IBM Data Science Professional Certificate** on Coursera.
 
