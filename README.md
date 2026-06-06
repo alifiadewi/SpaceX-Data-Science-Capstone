@@ -1,4 +1,3 @@
-# 🚀 Winning the Space Race with Data Science
 ### IBM Data Science Professional Certificate — Capstone Project
 
 > **Objective:** Predict whether SpaceX's Falcon 9 first stage will successfully land, enabling Space Y to estimate launch costs and compete in the commercial rocket market.
@@ -16,7 +15,7 @@
 
 ---
 
-## 🌍 Background
+## Background
 
 SpaceX offers Falcon 9 launches at **$62M** — far below the **$165M** industry average. The key differentiator is first-stage booster reusability. If a competitor (Space Y) can predict whether SpaceX will recover its booster, they can reverse-engineer SpaceX's true launch cost and price their bids more competitively.
 
@@ -24,7 +23,7 @@ This project applies the full data science lifecycle — from data collection to
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SpaceX-Data-Science-Capstone/
@@ -51,7 +50,7 @@ SpaceX-Data-Science-Capstone/
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Collection
 - **SpaceX REST API** (`api.spacexdata.com/v4/launches/past`) — pulled mission telemetry, payload details, and booster information
@@ -85,7 +84,7 @@ SpaceX-Data-Science-Capstone/
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Metric | Finding |
 |--------|---------|
@@ -109,7 +108,7 @@ SpaceX-Data-Science-Capstone/
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 | Category | Tools |
 |----------|-------|
@@ -123,7 +122,7 @@ SpaceX-Data-Science-Capstone/
 
 ---
 
-## ▶ How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -153,17 +152,15 @@ Then open `http://127.0.0.1:8050/` in your browser.
 
 ---
 
-## 📄 Presentation
+## Presentation
 
 The full project presentation (slides) is available here:  
 📎 [`presentation/Data_Science_Capstone_Project_Report.pdf`](./presentation/Data_Science_Capstone_Project_Report.pdf)
 
 ---
 
-## 🏅 Certificate
+## Certificate
 
 This project was completed as the capstone for the **IBM Data Science Professional Certificate** on Coursera.
 
 ---
-
-*Author: Nur Alifiadewi · May 2026*
