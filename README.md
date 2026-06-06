@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Background](#-background)
 - [Project Structure](#-project-structure)
 - [Methodology](#-methodology)
